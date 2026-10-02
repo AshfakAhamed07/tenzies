@@ -1,16 +1,43 @@
-# React + Vite
+# Tenzies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Tenzies dice game built with React as part of the React Fundamentals course by Bob Ziroll on Scrimba.
 
-Currently, two official plugins are available:
+## About the Game
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Tenzies is a dice game where the goal is to get all ten dice to show the same number.
 
-## React Compiler
+Click a die to hold its current value, then roll the remaining dice. Keep holding matching dice until all ten dice have the same value.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* Roll 10 dice with random values between 1 and 6
+* Hold individual dice to preserve their values between rolls
+* Automatically detect when the player has won
+* Display a win message when all dice are held and show the same number
+* Confetti animation when the game is won
+* Start a new game after winning
+* Keyboard and screen reader accessibility support
+* Automatically focus the New Game button after winning
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies
+
+* React
+* JavaScript
+* CSS
+* Vite
+* ESLint
+
+## What I Learned
+
+Through this project, I practiced:
+
+* Managing state with `useState`
+* Updating arrays of objects immutably
+* Passing props between components
+* Handling click events
+* Rendering lists with `.map()`
+* Using conditional rendering
+* Creating reusable React components
+* Using `useRef` for DOM references
+* Using `useEffect` for side effects
+* Managing f
